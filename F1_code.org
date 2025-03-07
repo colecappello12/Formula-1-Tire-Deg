@@ -214,7 +214,7 @@ core        WARNING 	Failed to preserve data type for column 'Z' while merging t
 [3 rows x 18 columns]
 #+end_example
 
-Now we get create a new variable 'Time_Secs' which is the number of seconds since the start of the race.  We also select only observations whose source is from the car
+Now we create a new variable 'Time_Secs' which is the number of seconds since the start of the race.  We also select only observations whose source is from the car
 
 #+begin_src python :session *Python* :results output
 
